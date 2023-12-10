@@ -19,8 +19,8 @@ formm.addEventListener("submit", function(e) {
         var nameVal1 = nameFirst.value;
         var nameVal2 = nameSecond.value;
 
-        var nameValArray1 = nameVal1.split('');
-        var nameValArray2 = nameVal2.split('');
+        var nameValArray1 = nameVal1.toLowerCase().split('');
+        var nameValArray2 = nameVal2.toLowerCase().split('');
 
         var sameLetters = nameValArray1.filter(letter => nameValArray2.includes(letter));
 
