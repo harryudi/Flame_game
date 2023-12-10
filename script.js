@@ -12,8 +12,8 @@ formm.addEventListener("submit", function(e) {
         var nameVal1 = nameFirst.value;
         var nameVal2 = nameSecond.value;
 
-    if (!nameVal1 ||!nameVal2) {
-        alert("please fill in all fields");
+    if (!nameVal1 ||!nameVal2 ||nameVal1.length<2 || nameVal2.length<2 ) {
+        alert("please fill in all fields with more than a single letter");
     }
     else {
         var nameVal1 = nameFirst.value;
