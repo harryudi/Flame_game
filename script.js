@@ -15,7 +15,7 @@ formm.addEventListener("submit", function(e) {
     if (
         // !nameVal1 ||!nameVal2 ||nameVal1.length<2 || nameVal2.length<2 ||nameVal1.includes(' ') || nameVal2.includes(' ') ||
      (/[^a-zA-Z]/.test(nameVal1)) || (/[^a-zA-Z]/.test(nameVal2)) ) {
-        alert("please fill in all fields with more a name more than 2 letters and no spaces");
+        alert("please fill in all fields with a name of more than a letters:No characters, numbers or spaces");
     }
     else {
         var nameVal1 = nameFirst.value;
