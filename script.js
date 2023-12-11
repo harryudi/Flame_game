@@ -50,7 +50,8 @@ formm.addEventListener("submit", function(e) {
             answer = 'Enemies'
         }
         console.log('print:',  answer)
+        answers.innerText = 'You guys are meant to be ' + '... ' + answer;
+
     }
 
-    answers.innerText = 'You guys are meant to be ' + '... ' + answer;
 })
