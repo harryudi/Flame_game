@@ -1,6 +1,8 @@
 Flame Game
+
 Overview
-Flame Game is a simple compatibility game designed to predict the relationship status between two individuals based on their names. This interactive web application takes user input, processes the names, and provides entertaining results such as "Friends," "Lovers," "Admires," "Married," or "Enemies."
+Flame Game is a simple <img width="407" alt="Screenshot 2023-12-10 162918" src="https://github.com/harryudi/Flame_game/assets/111028346/14b6ec17-2f87-4a91-ab47-8185e4ce159b">
+compatibility game designed to predict the relationship status between two individuals based on their names. This interactive web application takes user input, processes the names, and provides entertaining results such as "Friends," "Lovers," "Admires," "Married," or "Enemies."
 
 Technologies Used
 HTML, CSS, JavaScript: The core building blocks for creating a dynamic and interactive web application.
